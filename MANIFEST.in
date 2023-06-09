@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sai *.css
+recursive-include sai *.csv
+recursive-include sai *.html
+recursive-include sai *.ico
+recursive-include sai *.js
+recursive-include sai *.json
+recursive-include sai *.md
+recursive-include sai *.png
+recursive-include sai *.py
+recursive-include sai *.svg
+recursive-include sai *.txt
+recursive-exclude sai *.pyc
